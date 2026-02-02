@@ -317,6 +317,18 @@ td:first-child {
     min-width: 100% !important;
     padding-bottom: 24px;
   }
+  .form-ui,
+  .preview-wrap {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .layout {
+    overflow: visible;
+  }
+  body {
+    overflow-y: auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -504,4 +516,3 @@ td:first-child {
 .back-btn:hover {
   background: #e6e6e6;
 }
-
