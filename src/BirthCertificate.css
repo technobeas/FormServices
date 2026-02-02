@@ -159,6 +159,12 @@ td:first-child {
 @media (max-width: 992px) {
   .layout {
     flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-ui,
+  .preview-wrap {
+    width: 100%;
   }
 
   .preview-wrap {
@@ -308,6 +314,7 @@ td:first-child {
 
   .form-ui {
     max-height: 85vh;
+    min-width: 100% !important;
     padding-bottom: 24px;
   }
 }
@@ -497,3 +504,4 @@ td:first-child {
 .back-btn:hover {
   background: #e6e6e6;
 }
+
