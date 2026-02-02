@@ -134,7 +134,7 @@ td:first-child {
 .layout {
   display: flex;
   gap: 20px;
-  max-width: 1600px;
+  max-width: 1700px;
   margin: auto;
   padding: 10px;
 }
